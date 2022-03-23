@@ -57,3 +57,23 @@ const NUM = 6;
 ```
 <img src="https://github.com/KyungHoAn/Study_Javascript/blob/master/%EC%BA%A1%EC%B3%90/1.png" width="50%" height="50%">
 <img src="https://github.com/KyungHoAn/Study_Javascript/blob/master/%EC%BA%A1%EC%B3%90/2.png" width="80%" height="80%">
+
+## 함수(function)
+-함수는 하나의 특별한 목적의 작업을 수행하도록 설계된 독립적인 블록
+```
+function addNum(x,y){
+  return x+y;
+}
+document.write(addNum(2,3));
+```
+- 자바스크립트에서 함수도 하나의 datatype이다.
+- fucntion키워드로 시작되며 함수의 이름으로 되어있는 메서드를 표시하며 (매개변수1,....)를 사용한다.
+```
+function sqr(x){
+  return x*y;
+}
+vat sqrNum = sqr;   //sqr의 매개변수에 sqrNum을 대입
+document.writeln(sqr(4));
+document.write(sqrNum(4));
+```
+
