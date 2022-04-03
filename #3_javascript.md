@@ -66,4 +66,13 @@ function fncAddProduct(){
 	document.detailForm.submit();
 ```
 - 할당된 값을 action 컨트롤을 통하여 properties에 선언되어 있는 name값인 addProdut.do에서 value값으로 이동한다.
--
+- submit : 제출하다
+
+### reset() input초기화
+```
+function resetData(){
+	document.detailForm.reset();
+}
+```
+- document.detailForm.reset() : 현재문서의 detailForm(form이름)의 값들을 초기화시킨다.
+- resetData함수를 설정해 놓고 해당 함수를 사용한다면 해당 문서의 form이름이 있는 구역의 값들을 초기화 시키는 역할을 수행한다.
