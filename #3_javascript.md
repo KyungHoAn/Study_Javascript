@@ -1,4 +1,12 @@
-# 02.Model2MVCShop(Refactor & Page Navigation)
+# 02.Model2MVCShop(addProductView)
+### calendar설정의 javascript
+```
+<script type="text/javascript" src="../javascript/calendar.js">
+</script>
+```
+- calender를 누르면 calender를 보여주는 js로 연결시켜주는 역할 수행
+
+### name=detailForm값에서의 javascript
 ```
 function fncAddProduct(){
 	//Form 유효성 검증
